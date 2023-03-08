@@ -9,4 +9,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`)
   console.log('1. npm run start')
+  console.log('2. npm run start in ./src directory')
 })
