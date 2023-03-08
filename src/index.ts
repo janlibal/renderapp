@@ -16,5 +16,6 @@ app.listen(port, () => {
   console.log(`Server started on port: ${port}.`)
   console.log('Project has been updated to TypeScript!!!')
   console.log('Built and launched with npm run prod')
+  console.log('Dist folder added into .gitignore')
 
 })
