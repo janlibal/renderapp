@@ -17,5 +17,6 @@ app.listen(port, () => {
   console.log('Project has been updated to TypeScript!!!')
   console.log('Built and launched with npm run prod')
   console.log('Dist folder added into .gitignore')
+  console.log('Modified package json file')
 
 })
