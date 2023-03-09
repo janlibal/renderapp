@@ -7,7 +7,7 @@ dotenv.config()
 const app: Express = express()
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('New Express + TypeScript Server running on port 100000?')
+  res.send('New Express + TypeScript Server running on port 100000?. This is like that.')
 })
 
 const port = process.env.PORT || 3001
